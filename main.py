@@ -41,4 +41,5 @@ async def info(ctx: commands.Context):
     e.add_field(name="Credits",value="**Developed by:** https://github.com/goat6 **\nWith help from:** https://github.com/Spacerulerwill")
     await ctx.send(embed=e)
 
-bot.run(token)
+if __name__ == "__main__":
+    bot.run(token)
